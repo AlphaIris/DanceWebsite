@@ -1,0 +1,22 @@
+//- layout.pug
+doctype html 
+html
+  head
+    title Amaan Dance Academy 
+    block scripts
+    block style 
+  body
+    nav#navbar.top 
+            ul
+                div.logo
+                    img(src="/static/img/3.jpg") 
+                li #[a(href="/") Home] 
+                li #[a(href="/") About]
+                li #[a(href="/") Services] 
+                li #[a(href="/") Class-Info] 
+                li #[a(href="/contact") Contact us] 
+
+    block content
+    footer#footer 
+        | Copyright 2021 AmaanDanceAcademy.com
+        

@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    padding: 8px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.btn{
+    padding: 3px 16px;
+    font-size: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+}
+.btn:hover{
+    color:red;
+}
+.container{
+    min-height: 89vh;
+    background: center/ contain no-repeat url("/static/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container h1{
+    font-size: 3rem;
+    -webkit-text-stroke: 0.5px white;
+   -webkit-text-fill-color: red;
+}

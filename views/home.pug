@@ -1,0 +1,32 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+    
+        section#introSection 
+            div Welcome to Amaan's Dance Academy 
+            div  Eat Dance Sleep Repeat..!!
+
+        section#missionSection   
+            h2 Our Mission 
+            div.card 
+                h3 Dance with Perfection
+            div.card 
+                h3 Dance in your own way    
+            div.card 
+                h3 Expert Teaching Staff                 
+
+        section#sponserSection   
+            h2 Our Sponsers 
+            div#sponsors
+                img(src="/static/img/logo1.jpg", alt="Sponsor Image" , class="spImage") 
+                img(src="/static/img/logo2.png", alt="Sponsor Image" , class="spImage") 
+                img(src="/static/img/logo3.jpg", alt="Sponsor Image" , class="spImage") 
+                img(src="/static/img/logo4.png", alt="Sponsor Image" , class="spImage") 
+        
